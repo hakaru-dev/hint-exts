@@ -1,4 +1,4 @@
-name:                hint-patched 
+name:                hint-exts 
 version:             0.4.2.2
 description:
         This library defines an @Interpreter@ monad. It allows to load Haskell
@@ -35,7 +35,7 @@ Test-Suite unit-tests
   hs-source-dirs: unit-tests
   main-is: run-unit-tests.hs
   build-depends: base < 5
-                ,hint
+                ,hint-exts
                 ,HUnit==1.2.*
                 ,directory
                 ,filepath
